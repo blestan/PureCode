@@ -18,6 +18,7 @@ __history
 *.exe
 *.dll
 *.o
+*.a
 *.compiled
 Thumbs.db
 Desktop.ini
