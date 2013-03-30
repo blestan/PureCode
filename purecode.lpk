@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="PureCode"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Version Release="1"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="ruler.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Ruler"/>
+      </Item1>
+      <Item2>
+        <Filename Value="originpicker.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="originpicker"/>
+      </Item2>
+      <Item3>
+        <Filename Value="purecodetypes.pas"/>
+        <UnitName Value="purecodetypes"/>
+      </Item3>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
